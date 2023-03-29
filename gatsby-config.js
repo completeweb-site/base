@@ -218,20 +218,20 @@ module.exports = {
           
 
           `gatsby-remark-responsive-iframe`,
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              classPrefix: "language-",
-              inlineCodeMarker: null,
-              aliases: {},
-              showLineNumbers: false,
-              noInlineHighlight: false,
-              // By default the HTML entities <>&'" are escaped.
-              // Add additional HTML escapes by providing a mapping
-              // of HTML entities and their escape value IE: { '}': '&#123;' }
-              escapeEntities: {},
-            },
-          },
+          // {
+          //   resolve: `gatsby-remark-prismjs`,
+          //   options: {
+          //     classPrefix: "language-",
+          //     inlineCodeMarker: null,
+          //     aliases: {},
+          //     showLineNumbers: false,
+          //     noInlineHighlight: false,
+          //     // By default the HTML entities <>&'" are escaped.
+          //     // Add additional HTML escapes by providing a mapping
+          //     // of HTML entities and their escape value IE: { '}': '&#123;' }
+          //     escapeEntities: {},
+          //   },
+          // },
         ],
       },
     },
@@ -239,20 +239,22 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-theme-ui`,
-    `gatsby-plugin-static-cms`,
+    // `gatsby-plugin-static-cms`,
 
-    // {
-    //   resolve: `gatsby-plugin-netlify-cms`,
-    //   options: {
-    //     modulePath: ``, // default: undefined
-    //     enableIdentityWidget: true,
-    //     publicPath: `admin`,
-    //     htmlTitle: `Meme Genes CMS`,
-    //     htmlFavicon: `static/siteimages/manifest-icon-192.png`,
-    //     includeRobots: false,
-    //     logo_url: 'https://memegenes.com/assets/logo.svg'
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        enableIdentityWidget: true,
+        publicPath: `admin`,
+        htmlTitle: `Complete Web CMS`,
+        htmlFavicon: `static/assets/logo.svg`,
+        includeRobots: false,
+        logo_url: 'https://completeweb.site/assets/logo.svg'
+      },
+    },
+
+
 
     // {
     //   resolve: `gatsby-source-filesystem`,
