@@ -26,9 +26,9 @@ slug: /test1
 audiostart: null
 template: blog-post
 title: Test Blog Post
-category: news
 date: 2023-02-10 10:43
 description: A test blog post to show a blog post.
+category: info
 comments: false
 shareable: false
 tags:
