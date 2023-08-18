@@ -4,6 +4,7 @@ marating2: null
 audiotitle: null
 marating3: null
 marating4: null
+category: info
 youtube:
   youtubersuggestion3: null
   youtuber2: null
@@ -21,36 +22,35 @@ youtube:
   youtubestart: null
 audioend: null
 scrollable: false
-showZoom: true
-showPageNav: true
 nftdrop: null
 slug: /test1
 audiostart: null
+date: 2023-02-10 10:43
+featuredImage: /assets/CW-promo1.webp
+underlayImage: null
+bumpertext: null
+showZoom: true
+spotlight: true
 template: blog-post
 title: Test Blog Post
-category: 
-spotlight: true
-date: 2023-02-10 10:43
-description: A test blog post to show a blog post.
-comments: true
-shareable: false
+comments: false
+shareable: true
+showPageNav: true
 tags:
   - test
   - blog
   - article
-featuredImage: /assets/CW-promo1.webp
-underlayImage: null
-bumpertext: null
 svgImage: null
+postLimit: "4"
 maratingtx1: null
 liarliar: false
+description: A test blog post to show a blog post.
 svgzindex: null
 maratingtx2: null
 contentinvideo: false
 maratingtx3: null
 isnftforsale: false
 maratingtx4: null
-postLimit: "4"
 ---
 
 <div class="contentbody" style="text-align:left; margin-top:0;">
