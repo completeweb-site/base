@@ -145,10 +145,19 @@ Play Multimedia
   <div className="post-card1" style={{ justifyContent: "center", alignItems: "center" }}>End of Results Reached</div>
 )} */}
 
+{visibleItems === data.allMarkdownRemark.edges.length && (
+    <div className="post-card1" style={{ justifyContent: "center", alignItems: "center" }}><div className="post-card11" style={{ justifyContent: "center", alignItems: "center", verticalAlign:'center', width:'500px', height:'500px', display:'flex', border:'1px solid red', textAlign:'center', padding:'1vh 2vw', fontSize:'clamp(1rem, 1vw, 1rem)',  background:'rgba(0, 0, 0, 0.7)', borderRadius:'', border:'0px solid red', color:'#aaa' }} onClick={showMoreItems}>End of Results Reached</div></div>
+)}
+
 {visibleItems < data.allMarkdownRemark.edges.length && (
-  <button className="post-card1" style={{ justifyContent: "center", alignItems: "center" }} onClick={showMoreItems}>
+  <div className="post-card11" style={{ justifyContent: "center", alignItems: "center" }}><button className="post-card11" style={{ justifyContent: "center", alignItems: "center", verticalAlign:'center', width:'500px', height:'500px', display:'flex', border:'1px solid red', textAlign:'center', padding:'1vh 2vw', fontSize:'clamp(1rem, 1vw, 1rem)',  background:'rgba(0, 0, 0, 0.7)', borderRadius:'', border:'0px solid red', color:'#aaa' }} onClick={showMoreItems}>
     Show more
-  </button>
+  </button></div>
+
+)}
+
+{visibleItems >= data.allMarkdownRemark.edges.length && (
+  <div className="post-card11" style={{ justifyContent: "center", alignItems: "center" }}><div className="post-card11" style={{ justifyContent: "center", alignItems: "center", verticalAlign:'center', width:'500px', height:'500px', display:'flex', border:'1px solid red', textAlign:'center', padding:'1vh 2vw', fontSize:'clamp(1rem, 1vw, 1rem)',  background:'rgba(0, 0, 0, 0.7)', borderRadius:'', border:'0px solid red', color:'#aaa' }} onClick={showMoreItems}>End of Results Reached</div></div>
 )}
 
 
