@@ -4,7 +4,6 @@ marating2: null
 audiotitle: null
 marating3: null
 marating4: null
-category: info
 youtube:
   youtubersuggestion3: null
   youtuber2: null
@@ -22,50 +21,53 @@ youtube:
   youtubestart: null
 audioend: null
 scrollable: false
+showZoom: true
+showPageNav: true
 nftdrop: null
 slug: /test1
 audiostart: null
-date: 2023-02-10 10:43
-featuredImage: /assets/CW-promo1.webp
-underlayImage: null
-bumpertext: null
-showZoom: true
-spotlight: true
 template: blog-post
 title: Test Blog Post
-comments: false
-shareable: true
-showPageNav: true
+category: 
+spotlight: false
+date: 2023-09-02 10:43
+description: A test blog post to show a blog post.
+comments: true
+shareable: false
 tags:
   - test
   - blog
   - article
-svgImage: null
-postLimit: "4"
+featuredImage: /assets/CW-promo1.webp
+underlayImage: null
+bumpertext: null
+svgImage: /assets/install-intro.svg
 maratingtx1: null
 liarliar: false
-description: A test blog post to show a blog post.
 svgzindex: null
 maratingtx2: null
-contentinvideo: false
+contentinvideo: true
 maratingtx3: null
 isnftforsale: false
 maratingtx4: null
+postLimit: "4"
 ---
+
+<div class="contentinside" style="position:absolute; z-index:10; min-width:50%; height:auto;  padding:0; left:0; border:2px solid yellow; text-align:center;">
+<object class="animator" style="position:absolute; z-index:0; height:auto; border:1px solid red;" class="" id="svg1" data="/assets/LH-Scores.svg" type="image/svg+xml" alt="animated content" title="animated content" ></object>
+</div>
 
 <div class="contentbody" style="text-align:left; margin-top:0;">
 
 
-Todd Lambert is a photographer and web developer based in the United States. He has been active in the industry for several years and has gained a reputation for his creative and technically proficient work. Lambert's photography work often focuses on landscapes and nature, and he has been published in a variety of magazines and websites.
 
-In addition to his photography work, Lambert is also an experienced web developer. He has created websites for a wide range of clients, including businesses, nonprofits, and individuals. Lambert's web development work is known for its clean design, intuitive navigation, and user-friendly interface.
+Bloopers!
 
-Overall, Todd Lambert is a talented photographer and web developer who has made a name for himself in both fields. His work demonstrates a strong commitment to quality and a passion for creativity and innovation.
+<!-- <a class="button" href="https://app.netlify.com/start/deploy?repository=https://github.com/completeweb-site/base&amp;stack=cms&amp;SITE_LOGO=https://https://piratesocial.org/assets/logo.svg" rel="nofollow">
+Install Pirate
+</a> -->
 
-
-<a class="button" href="https://app.netlify.com/start/deploy?repository=https://github.com/completeweb-site/base&amp;stack=cms&amp;SITE_LOGO=https://completeweb.site/assets/logo.svg" rel="nofollow">
-Install CompleteWeb
-</a>
+<!-- INSTALL PIRATE: &nbsp; [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/piratesocial/pirate&amp;stack=cms&amp;SITE_LOGO=https://piratesocial.org/assets/logo.svg) &nbsp; (install takes about 4 minutes) -->
 
 
 
